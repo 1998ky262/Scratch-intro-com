@@ -8,4 +8,5 @@
 ください(だる
 ある程度個性を出してもいいですが、デザイン、フォント、ヘッダーは統一させてください。
 ## 質問など
-質問などがあった場合< a href="https://github.com/1998ky262/Scratch.intro.com/issues/1">ここ</a>にお願いします。
+質問などがあった場合
+<a href="https://github.com/1998ky262/Scratch.intro.com/issues/1">ここ</a>にお願いします。
