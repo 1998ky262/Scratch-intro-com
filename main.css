@@ -1,0 +1,9 @@
+body{text-align:center;font-family:  "ヒラギノ角ゴ ProN W3", HiraKakuProN-W3, 游ゴシック, "Yu Gothic", メイリオ, Meiryo, Verdana, Helvetica, Arial, sans-serif;
+background-color:#ececec;}
+.title{ color:#ff006f;}
+.n{background-color:#ff006f;
+color:white;
+font-size:30px;}
+a{text-decoration-line:none;
+color:white;}
+/*このCSSファイルを変更すればすべてのページのスタイルを変更できます。*/
