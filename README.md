@@ -6,7 +6,9 @@
 メインサイトは最近の記事とか特集するサイトにしようと思います。
 招待(?)された場合はなんもしなくても大丈夫ですが、やるとするなら、(なんか).htmlを作ったりして記事を作って
 ください(だる
+## デザインについて
 ある程度個性を出してもいいですが、デザイン、フォント、ヘッダーは統一させてください。
+CSSについては<a href="https://github.com/1998ky262/Scratch-intro-com/blob/main/Intro-type.html">こちら</a>を参考にしてください。
 ## 質問など
 質問などがあった場合
 <strong><a href="https://github.com/1998ky262/Scratch.intro.com/issues/1">ここ</a></strong>にお願いします。
