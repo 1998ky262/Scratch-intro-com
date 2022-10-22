@@ -5,7 +5,6 @@
 ## 開発者
 開発者になったら、(name).htmlなどを作り記事を作成できます。
 ## デザイン
-head内に、
 ~~~JavaScript
 <script src="https://1998ky262.github.io/Scratch-intro-com/include.js"></script>
 ~~~
