@@ -17,5 +17,6 @@ a{
   text-decoration-line:none;
   color:white;
 }
-.black{color:black;}
+.black{color:black;
+  text-decoration-line: underline;
 /*このCSSファイルを変更すればすべてのページのスタイルを変更できます。*/
