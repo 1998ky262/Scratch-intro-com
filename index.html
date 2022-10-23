@@ -15,12 +15,12 @@
                    for(let i=0;i<text.length-1;i++){
                          let d=text[i].split(",");
                         let element=document.createElement("div");
-                         element.style="margin:20px auto 0 auto;display:block;width:200px;background-color:#424242;padding:10px;border-radius:10px;border:solid 1.5px #7d7d7d";
+                         element.style="margin:20px auto 0 auto;display:block;width:200px;background-color:#424242;padding:10px;border-radius:10px;border:solid 1.5px #7d7d7d;line-height:25px;";
                          if(d[2]==""){
-                           element.innerHTML=`<a href="${d[1]}"><img style="margin:0px" src="https://uploads.scratch.mit.edu/get_image/project/749833041_100x80.png" height="130" width="195"></a><br><a href="/Scratch-intro-com/${d[1]}">${d[0]}</a><br>`;
+                           element.innerHTML=`<a href="${d[1]}"><img style="margin:0px" src="https://uploads.scratch.mit.edu/get_image/project/749833041_100x80.png" height="130" width="195"></a><a href="/Scratch-intro-com/${d[1]}">${d[0]}</a><br>`;
                            document.body.appendChild(element);
                          }else{
-                           element.innerHTML=`<a href="${d[1]}"><img style="margin:0px" src="${d[2]}" height="130" width="195"></a><br><a href="${d[1]}">${d[0]}</a><br>`;
+                           element.innerHTML=`<a href="${d[1]}"><img style="margin:0px" src="${d[2]}" height="130" width="195"></a><a href="${d[1]}">${d[0]}</a><br>`;
                            document.body.appendChild(element);
                          }
                    }
