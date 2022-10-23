@@ -1,0 +1,2 @@
+イントロのチュートリアル,Intro-type,https://uploads.scratch.mit.edu/get_image/project/499025389_480x360.png
+イントロの構造,intro-structure,
