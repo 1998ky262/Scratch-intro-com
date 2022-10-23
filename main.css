@@ -2,6 +2,7 @@ body{
   text-align:center;
   font-family:  "ヒラギノ角ゴ ProN W3", HiraKakuProN-W3, 游ゴシック, "Yu Gothic", メイリオ, Meiryo, Verdana, Helvetica, Arial, sans-serif;
   margin:0px;
+  padding-top:50px;
   background-color:#ececec;
   line-height:50px;
 }
@@ -12,6 +13,11 @@ body{
   background-color:#ff006f;
   color:white;
   font-size:30px;
+  width:100%;
+  position:absolute;
+  position:fixed;
+  top:0px;
+  margin-top:0px;
 }
 a{
   text-decoration-line:none;
