@@ -2,7 +2,7 @@
 イントロの記事のサイトにしていくつもりです。
 記事を書く人も集めようと思います。
 ## 開発者
-開発者になったら、(name).htmlなどを作り記事を作成できます。
+開発者になったら、articleのフォルダに(name).htmlなどを作り記事を作成できます。
 ## デザイン
 ~~~JavaScript
 <script src="https://1998ky262.github.io/Scratch-intro-com/include.js"></script>
