@@ -1,4 +1,4 @@
-有名なイントロメーカー,toro,https://uploads.scratch.mit.edu/get_image/project/747877994_600x450.png
+参考にするべきイントロメーカー,toro,https://uploads.scratch.mit.edu/get_image/project/747877994_600x450.png
 CCについて解説,CC,https://cdn2.scratch.mit.edu/get_image/project/654664158_480x360.png
 イントロの種類,Intro-type,https://uploads.scratch.mit.edu/get_image/project/499025389_480x360.png
 イントロの構造,intro-structure,https://1998ky262.github.io/Scratch-intro-com/images/51C02DCE-8705-4163-905B-296A3CFCBC7C.jpeg
