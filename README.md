@@ -4,7 +4,7 @@
 ## 開発者
 開発者になったら、articleのフォルダに(name).htmlなどを作り記事を作成できます。
 ## デザイン
-~~~JavaScript
+~~~HTML
 <script src="https://1998ky262.github.io/Scratch-intro-com/include.js"></script>
 ~~~
 を入れることによってCSSでデザインを統一、自動的にヘッダーを追加できます！（一応、bodyの終了タグ直前に入れたほうが安全です。）  
