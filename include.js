@@ -18,9 +18,11 @@ window.addEventListener('DOMContentLoaded', function() {
   `
   var ele =document.body.firstChild;
   ele.before(header);
+	if(location.href.includes("article")){
 	var article=document.createElement("script");
 	article.src="https://1998ky262.github.io/Scratch-intro-com/article/article.js";
 	document.body.appendChild(article);
+	}
 
 });
 
