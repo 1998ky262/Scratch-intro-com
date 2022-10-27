@@ -28,10 +28,10 @@
                         let element=document.createElement("div");
                          element.style="margin:10px;display:inline-block;width:200px;background-color:#424242;padding:10px;border-radius:10px;border:solid 1.5px #7d7d7d;line-height:25px;";
                          if(d[2]==""){
-                           element.innerHTML=`<a href="article/${d[1]}"><img style="margin:0px" src="https://uploads.scratch.mit.edu/get_image/project/749833041_100x80.png" width="195" height="146.25"></a><a href="/Scratch-intro-com/article/${d[1]}">${d[0]}</a>`;
+                           element.innerHTML=`<a href="article/${d[1]}"><img style="margin:0px" src="https://uploads.scratch.mit.edu/get_image/project/749833041_100x80.png" width="195" height="146.25"></a><a href="/Scratch-intro-com/article/${d[1]}" class="white">${d[0]}</a>`;
                            document.body.appendChild(element);
                          }else{
-                           element.innerHTML=`<a href="article/${d[1]}"><img style="margin:0px" src="${d[2]}" width="195" height="146.25"></a><a href="article/${d[1]}">${d[0]}</a>`;
+                           element.innerHTML=`<a href="article/${d[1]}"><img style="margin:0px" src="${d[2]}" width="195" height="146.25"></a><a href="article/${d[1]}" class="white">${d[0]}</a>`;
                            document.body.appendChild(element);
                          }
                    }
