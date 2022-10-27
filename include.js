@@ -12,7 +12,7 @@ window.addEventListener('DOMContentLoaded', function() {
   
   <!--ここから-->
 <div class="n">
-<a href="https://1998ky262.github.io/Scratch-intro-com/" >ホーム</a>
+<a href="https://1998ky262.github.io/Scratch-intro-com/" class="home">ホーム</a>
 </div>
 <!--ここまでヘッダーの内容-->
   `
