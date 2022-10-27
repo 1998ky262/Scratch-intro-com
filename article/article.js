@@ -21,7 +21,6 @@ com1.onclick=function(){
     var commentArea=document.createElement("div");
     commentArea.class="comment-area"
     var contains=false;
-    alert(data);
     for(let i=0;i<hoge;i++){
         let htmlData=document.getElementsByClassName("info")[i];
         let name=htmlData.innerHTML.split("\n")[2].split(">")[1].replace("</a","");
