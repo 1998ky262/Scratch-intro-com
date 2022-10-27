@@ -80,6 +80,9 @@ com1.onclick=function(){
     temp.remove();
     commentArea.style="margin:0 auto 0 auto;display:block;padding:10px;border-radius:10px;text-align:left;width:75%;line-height:30px;background-color:"
     document.body.appendChild(commentArea);
+    var st=document.createElement("style");
+    st.innerHTML=`.commentmention{color:blue;}`;
+    document.body.appendChild(st);
   });
   
   }
