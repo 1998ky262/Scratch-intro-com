@@ -23,8 +23,9 @@ body{
 a{
     font-weight:600;
 }
-a.home{
-font-weight:200;}
+a.white{
+font-weight:200;color:white;
+text-decoration:none;}
 .black{color:black;
   text-decoration-line: underline;}
 /*このCSSファイルを変更すればすべてのページのスタイルを変更できます。*/
