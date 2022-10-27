@@ -21,6 +21,7 @@ com1.onclick=function(){
     var commentArea=document.createElement("div");
     commentArea.class="comment-area"
     var contains=false;
+    alert(data);
     for(let i=0;i<hoge;i++){
         let htmlData=document.getElementsByClassName("info")[i];
         let name=htmlData.innerHTML.split("\n")[2].split(">")[1].replace("</a","");
@@ -28,11 +29,12 @@ com1.onclick=function(){
         let imgsrc=htmlData.previousElementSibling.firstChild.src;
         
         var oneComment=document.createElement("div");
-        content.replace(key,"");
         if(content.split("\n")[2].includes("<a")){
             content=content.replace("/users","https://scratch.mit.edu/users")
             .replace("href","class=\"commentmention\" href");
             oneComment.class="reply";
+            
+        content=content.replace(key,"");
             oneComment.innerHTML=`
                 <a href="https://scratch.mit.edu/users/${name}">
                 <img src=${imgsrc} width="45" height="45" style="vertical-align:bottom;">
@@ -46,15 +48,18 @@ com1.onclick=function(){
             
         oneComment.style="margin:10px;padding:5px;margin-left:50px;border-top:solid 1px gray;";
         
-          if(content.includes(key)){
-            contains=true;
-          }else{
-            contains=false;
-          }
+          
           if(contains){
         commentArea.appendChild(oneComment);
           }
         }else{
+         
+        if(content.includes(key)){
+            contains=true;
+          }else{
+            contains=false;
+          }
+          content=content.replace(key,"");
             oneComment.class="top-level";
             oneComment.innerHTML=`
                 <a href="https://scratch.mit.edu/users/${name}">
