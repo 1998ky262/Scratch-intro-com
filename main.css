@@ -19,9 +19,11 @@ body{
   top:0px;
   margin-top:0px;
 }
-a{
+a.home{
   text-decoration-line:none;
-  color:white;
+}
+a{
+  color:black
 }
 .black{color:black;
   text-decoration-line: underline;}
