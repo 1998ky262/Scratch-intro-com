@@ -1,4 +1,8 @@
-var key="["+location.pathname.replace("Scratch-intro-com/article","").replace(/\//g,"")+"]";
+if(location.pathname=="/Scratch-intro-com/"){
+	var key="";
+}else{
+	var key="["+location.pathname.replace("Scratch-intro-com/article","").replace(/\//g,"")+"]";
+}
 var com1=document.createElement("p");
 var com2;var com3;
     var commenth2=document.createElement("h2");
