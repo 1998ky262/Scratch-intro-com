@@ -21,11 +21,10 @@ body{
 }
 
 a{
-  color:black
+    font-weight:600;
 }
 a.home{
-  text-decoration-line:none;
-}
+font-weight:200;}
 .black{color:black;
   text-decoration-line: underline;}
 /*このCSSファイルを変更すればすべてのページのスタイルを変更できます。*/
