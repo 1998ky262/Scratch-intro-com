@@ -3,7 +3,7 @@ if(location.pathname=="/Scratch-intro-com/"){
 }else{
 	var key="["+location.pathname.replace("Scratch-intro-com/article","").replace(/\//g,"")+"]";
 }
-key="";
+//key="";
 var com1=document.createElement("p");
 var com2;var com3;
     var commenth2=document.createElement("h2");
