@@ -9,7 +9,7 @@ var com2;var com3;
     var commenth2=document.createElement("h2");
     commenth2.innerHTML="コメント";
     var main=document.createElement("main");
-    main.innerHTML=`<a href="https://scratch.mit.edu/projects/749865423/">ここ</a>に<a id="comkey" style="cursor:pointer">${key}</a>（ワンクリックでコピー）を先頭につけてコメントしてください。なお、返信には付ける必要はありません。<br>Scratchのアカウントが必要です。反映まで数時間かかります。ちなみにまだ試作段階なのでうまくいくかわかりません。`;
+    main.innerHTML=`<a href="https://scratch.mit.edu/projects/749865423/">ここ</a>に<a id="comkey" style="cursor:pointer" title="クリックでコピー">${key}</a>を先頭につけてコメントしてください。また、<a id="all" style="cursor:pointer" title="クリックでコピー">[all]</a>を使うことですべての記事にコメントできます。なお、返信にはこれらのものは付ける必要はありません。<br>Scratchのアカウントが必要です。反映まで数時間かかります。ちなみにまだ試作段階なのでうまくいくかわかりません。`;
     document.body.appendChild(commenth2);
     document.body.appendChild(main);
 com1.innerHTML="<button>コメントを読み込む</button>";
@@ -38,7 +38,7 @@ com1.onclick=function(){
             .replace("href","class=\"commentmention\" href");
             oneComment.class="reply";
             
-        content=content.replace(key,"");
+        content=content.replace(key,"").replace("[all]","");
             oneComment.innerHTML=`
                 <a href="https://scratch.mit.edu/users/${name}">
                 <img src=${imgsrc} width="45" height="45" style="vertical-align:bottom;">
@@ -58,12 +58,12 @@ com1.onclick=function(){
           }
         }else{
          
-        if(content.includes(key)){
+        if(content.includes(key)||content.includes("[all]")){
             contains=true;
           }else{
             contains=false;
           }
-          content=content.replace(key,"");
+          content=content.replace(key,"").replace("[all]","");
             oneComment.class="top-level";
             oneComment.innerHTML=`
                 <a href="https://scratch.mit.edu/users/${name}">
@@ -92,6 +92,16 @@ var comkey=document.getElementById("comkey");
 comkey.onclick=function(){
 	var element = document.createElement("textarea");
 	element.value=key;
+	document.body.appendChild(element);
+	element.select();
+	document.execCommand('copy');
+	document.body.removeChild(element);
+  alert("コピーしました。");
+}
+var all=document.getElementById("all");
+all.onclick=function(){
+	var element = document.createElement("textarea");
+	element.value="[all]"
 	document.body.appendChild(element);
 	element.select();
 	document.execCommand('copy');
