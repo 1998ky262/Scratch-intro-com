@@ -8,7 +8,7 @@ var com2;var com3;
     var commenth2=document.createElement("h2");
     commenth2.innerHTML="コメント";
     var main=document.createElement("main");
-    main.innerHTML=`<a href="https://scratch.mit.edu/projects/749865423/">ここ</a>に ${key} を先頭につけてコメントしてください。なお、返信には付ける必要はありません。<br>Scratchのアカウントが必要です。ちなみにまだ試作段階なのでうまくいくかわかりません。`;
+    main.innerHTML=`<a href="https://scratch.mit.edu/projects/749865423/">ここ</a>に ${key} を先頭につけてコメントしてください。なお、返信には付ける必要はありません。<br>Scratchのアカウントが必要です。反映まで数時間かかります。ちなみにまだ試作段階なのでうまくいくかわかりません。`;
     document.body.appendChild(commenth2);
     document.body.appendChild(main);
 com1.innerHTML="<button>コメントを読み込む</button>";
