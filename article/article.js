@@ -3,12 +3,13 @@ if(location.pathname=="/Scratch-intro-com/"){
 }else{
 	var key="["+location.pathname.replace("Scratch-intro-com/article","").replace(/\//g,"")+"]";
 }
+key="";
 var com1=document.createElement("p");
 var com2;var com3;
     var commenth2=document.createElement("h2");
     commenth2.innerHTML="コメント";
     var main=document.createElement("main");
-    main.innerHTML=`<a href="https://scratch.mit.edu/projects/749865423/">ここ</a>に<a id="comkey" style="cursor:pointer">${key}</a>（ワンクリックでコピー）を先頭につけてコメントしてください。なお、返信には付ける必要はありません。<br>Scratchのアカウントが必要です。反映まで数時間かかります。ちなみにまだ試作段階なのでうまくいくかわかりません。`;
+    main.innerHTML=`<a href="https://scratch.mit.edu/projects/749865423/">ここ</a>に<a id="comkey" style="cursor:pointer">${key}</a>（ワンクリックでコピー）を先頭につけてコメントしてください。なお、返信には付ける必要はありません。<br>Scratchのアカウントが必要です。反映まで数時間かかります。ちなみにまだ試作段階なのでうまくいくかわかりません。ちょっと今ちゃんと動いてるか心配なので全てのコメントを表示させています。`;
     document.body.appendChild(commenth2);
     document.body.appendChild(main);
 com1.innerHTML="<button>コメントを読み込む</button>";
