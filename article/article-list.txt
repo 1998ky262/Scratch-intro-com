@@ -1,4 +1,4 @@
 JIMOについて,JIMO,https://uploads.scratch.mit.edu/get_image/project/720829331_600x450.png
 CCについて解説,CC,https://cdn2.scratch.mit.edu/get_image/project/654664158_480x360.png
 イントロの種類,Intro-type,https://uploads.scratch.mit.edu/get_image/project/499025389_480x360.png
-イントロの構造,intro-structure,https://1998ky262.github.io/Scratch-intro-com/images/download.png
+イントロの構造,intro-structure" target="_blank,https://1998ky262.github.io/Scratch-intro-com/images/download.png
