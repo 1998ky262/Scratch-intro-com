@@ -9,7 +9,7 @@ var com2;var com3;
     var commenth2=document.createElement("h2");
     commenth2.innerHTML="コメント";
     var main=document.createElement("main");
-    main.innerHTML=`<a href="https://scratch.mit.edu/projects/749865423/">ここ</a>に<a id="comkey" style="cursor:pointer" title="クリックでコピー">${key}</a>を先頭につけてコメントしてください。また、<a id="all" style="cursor:pointer" title="クリックでコピー">[all]</a>を使うことですべての記事にコメントできます。なお、返信にはこれらのものは付ける必要はありません。<br>Scratchのアカウントが必要です。反映まで数時間かかります。<div style="opacity:0.8;display:inline">このコメント機能は<a href="https://yukkku.github.io/">yukkuさんのホームページ</a>を参考にyamaguchi03がオリジナルで作ったものです。</div>`;
+    main.innerHTML=`<a href="https://scratch.mit.edu/projects/749865423/">ここ</a>に<a id="comkey" style="cursor:pointer" title="クリックでコピー">${key}</a>を先頭につけてコメントしてください。また、<a id="all" style="cursor:pointer" title="クリックでコピー">[all]</a>を使うことですべての記事にコメントできます。なお、返信にはこれらのものは付ける必要はありません。<br>Scratchのアカウントが必要です。反映まで数時間かかります。<div style="opacity:0.1;display:inline">このコメント機能は<a href="https://yukkku.github.io/">yukkuさんのホームページ</a>を参考にyamaguchi03がオリジナルで作ったものです。</div>`;
     document.body.appendChild(commenth2);
     document.body.appendChild(main);
 com1.innerHTML="<button>コメントを読み込む</button>";
