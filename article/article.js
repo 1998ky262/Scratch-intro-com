@@ -19,6 +19,22 @@ com1.onclick=function(){
   fetch("https://scratch.mit.edu/site-api/comments/project/749865423/")
   .then(response => response.text())
   .then(data => {
+  fetch("https://1998ky262.github.io/Scratch-intro-com/article/article-list.txt")
+  .then(response => response.text())
+  .then(list => {
+  		function con(cont){
+      	let arr=list.split("\n");
+        let taglist=[];
+        for(let i=0;i<arr.length;i++){
+        	taglist.push(arr[i].split(",")[1]);
+        }
+        let ret=cont;
+        for(let i=0;i<taglist.length-1;i++){
+        	ret=ret.replace("["+taglist[i]+"]","");
+        }
+        return ret
+      }
+      
     var temp=document.createElement("div");
     temp.innerHTML=data;
     document.body.appendChild(temp);
@@ -46,7 +62,7 @@ com1.onclick=function(){
                 ${name}
                 </a>
                 <div class="comment">
-                ${content}
+                ${con(content)}
                 </div>
             `;
             
@@ -72,7 +88,7 @@ com1.onclick=function(){
                 ${name}
                 </a>
                 <div class="comment">
-                ${content}
+                ${con(content)}
                 </div>
             `;
             
@@ -85,7 +101,7 @@ com1.onclick=function(){
     temp.remove();
     commentArea.style="margin:0 auto 0 auto;display:block;padding:10px;border-radius:10px;text-align:left;width:75%;line-height:30px;background-color:"
     document.body.appendChild(commentArea);
-  });
+  })});
   
   }
 var comkey=document.getElementById("comkey");
@@ -108,4 +124,3 @@ all.onclick=function(){
 	document.body.removeChild(element);
   alert("コピーしました。");
 }
- 
