@@ -10,7 +10,7 @@
 を入れることによってCSSでデザインを統一、自動的にヘッダーを追加できます！（一応、bodyの終了タグ直前に入れたほうが安全です。）  
 入れるときはheadタグ内には、タイトルタグのみ挿入してください。styleタグを入れると反映されません。
 ## 記事を書く際
-記事を書く際は、articleのフォルダ内の<strong><a href="https://github.com/1998ky262/Scratch-intro-com/blob/main/article-list.txt">article-list.txt</a></strong>に、
+記事を書く際は、articleのフォルダ内の<strong><a href="https://github.com/1998ky262/Scratch-intro-com/blob/main/article/article-list.txt">article-list.txt</a></strong>に、
 ~~~
 記事の名前,記事のhtmlファイルの.htmlを取った名前,記事のサムネイル画像のURL
 ~~~
