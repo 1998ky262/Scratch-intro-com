@@ -22,7 +22,7 @@
 質問や、進捗を報告する場合、
 <strong><a href="https://github.com/1998ky262/Scratch.intro.com/issues/1">ここ</a></strong>にお願いします。
 ## 役割
-@1998ky262 リーダー　記事
-@haru-ymth システム　記事
-@sogattiFX 記事
+@1998ky262 リーダー　記事<br>
+@haru-ymth システム　記事<br>
+@sogattiFX 記事<br>
 @atridott 記事　ファビコンなど
