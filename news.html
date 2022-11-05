@@ -12,7 +12,7 @@
     for(let i=0;i<list.length-1;i++){
         let elem=document.createElement("div");
         elem.id="a_news"
-        elem.innerHTML=`<a href="${list[i].split(",")[1]}">${list[i].split(",")[0]}</a><a class="a_news_date">${list[i].split(",")[2]}</a>`;
+        elem.innerHTML=`<a href="${list[i].split(",")[1]}" target="_parent">${list[i].split(",")[0]}</a><a class="a_news_date">${list[i].split(",")[2]}</a>`;
         document.body.appendChild(elem);
     }
 }
