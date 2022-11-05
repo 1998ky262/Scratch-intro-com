@@ -21,6 +21,12 @@
 ## 質問や進捗
 質問や、進捗を報告する場合、
 <strong><a href="https://github.com/1998ky262/Scratch.intro.com/issues/1">ここ</a></strong>にお願いします。
+## お知らせ的なものを追加する場合
+<strong><a href="https://github.com/1998ky262/Scratch-intro-com/blob/main/news.txt">news.txt</a></strong>に、
+```
+お知らせのテキスト,関連するリンク一つ,年/月/日
+```
+を一番上に挿入してください。（未完成）
 ## 役割
 @1998ky262 リーダー　記事<br>
 @haru-ymth システム　記事<br>
