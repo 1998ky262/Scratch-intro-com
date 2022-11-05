@@ -1,3 +1,4 @@
+イントロのフォント,INTRO-FONT,https://1998ky262.github.io/Scratch-intro-com/images/baddesign.png
 ダサいIntroの特徴,bad-design,https://1998ky262.github.io/Scratch-intro-com/images/baddesign.png
 JIMOについて,JIMO,https://uploads.scratch.mit.edu/get_image/project/720829331_600x450.png
 CCについて解説,CC,https://cdn2.scratch.mit.edu/get_image/project/654664158_480x360.png
