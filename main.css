@@ -18,6 +18,7 @@ body{
   position:fixed;
   top:0px;
   margin-top:0px;
+  z-index:999999;
 }
 
 a{
@@ -38,6 +39,7 @@ text-decoration:none;}
   box-shadow: 0px 0px 5px 1px #0000004d;
   position:fixed;
   visibility:hidden;
+  z-index:999;
 }
 #sidebartoggle{
   user-select:none;
