@@ -1,0 +1,22 @@
+<html>
+  <!--このファイルはnews.txtと違って変更しないでください-->
+  <head>
+    <link rel="stylesheet" href="https://1998ky262.github.io/Scratch-intro-com/main.css">
+    <meta charset="utf-8"> 
+  </head>
+  <body>
+    <script>
+        async function func(){
+	let data=await (await fetch("https://1998ky262.github.io/Scratch-intro-com/news.txt")).text();
+    let list=data.split("\n");
+    for(let i=0;i<list.length-1;i++){
+        let elem=document.createElement("div");
+        elem.id="a_news"
+        elem.innerHTML=`<a href="${list[i].split(",")[1]}">${list[i].split(",")[0]}</a><a class="a_news_date">${list[i].split(",")[2]}</a>`;
+        document.body.appendChild(elem);
+    }
+}
+func();
+    </script>
+  </body>
+</html>
