@@ -29,4 +29,17 @@ font-weight:200;color:white;
 text-decoration:none;}
 .black{color:black;
   text-decoration-line: underline;}
+#newsbox{
+  position:absolute;
+  right:0px;
+  display:block;
+  width:40%;
+  height:100%;
+  box-shadow: 0px 0px 5px 1px #0000004d;
+  position:fixed;
+  visibility:hidden;
+}
+#sidebartoggle{
+  user-select:none;
+}
 /*このCSSファイルを変更すればすべてのページのスタイルを変更できます。*/
