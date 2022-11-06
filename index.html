@@ -26,15 +26,15 @@
                         let element=document.createElement("div");
                          element.style="margin:10px;display:inline-block;width:200px;background-color:#424242;padding:10px;border-radius:10px;border:solid 1.5px #7d7d7d;line-height:25px;";
                          if(data[c].tn==""){
-                           element.innerHTML=`<a href="article/${c}"><img style="margin:0px" src="https://uploads.scratch.mit.edu/get_image/project/749833041_100x80.png" width="195" height="146.25"></a><a href="/Scratch-intro-com/article/${data[c].id}.html" class="white">${c}</a>`;
+                           element.innerHTML=`<a href="article/${c}.html"><img style="margin:0px" src="https://uploads.scratch.mit.edu/get_image/project/749833041_100x80.png" width="195" height="146.25"></a><a href="/Scratch-intro-com/article/${data[c].id}.html" class="white">${c}</a>`;
                            document.body.appendChild(element);
                          }else{
-                           element.innerHTML=`<a href="article/${data[c].id}"><img style="margin:0px" src="${data[c].tn}" width="195" height="146.25"></a><a href="article/${data[c].id}.html" class="white">${c}</a>`;
+                           element.innerHTML=`<a href="article/${data[c].id}.html"><img style="margin:0px" src="${data[c].tn}" width="195" height="146.25"></a><a href="article/${data[c].id}.html" class="white">${c}</a>`;
                            document.body.appendChild(element);
                          }
                    }
   });
       </script>
-      <script src="https://1998ky262.github.io/Scratch-intro-com/include.js"></script>
+      <script src="./include.js"></script>
 </body>
 </html>
