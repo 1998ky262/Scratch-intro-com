@@ -5,14 +5,14 @@
 開発者になったら、articleのフォルダに(name).htmlなどを作り記事を作成できます。
 ## デザイン
 ~~~HTML
-<script src="https://1998ky262.github.io/Scratch-intro-com/include.js"></script>
+<script src="../include.js"></script>
 ~~~
 を入れることによってCSSでデザインを統一、自動的にヘッダーを追加できます！（一応、bodyの終了タグ直前に入れたほうが安全です。）  
 入れるときはheadタグ内には、タイトルタグのみ挿入してください。styleタグを入れると反映されません。
 ## 記事を書く際
-記事を書く際は、articleのフォルダ内の<strong><a href="https://github.com/1998ky262/Scratch-intro-com/blob/main/article/article-list.txt">article-list.txt</a></strong>に、
+記事を書く際は、articleのフォルダ内の<strong><a href="https://github.com/1998ky262/Scratch-intro-com/blob/main/article/article-list.json">article-list.json</a></strong>に、
 ~~~
-記事の名前,記事のhtmlファイルの.htmlを取った名前,記事のサムネイル画像のURL
+"記事の名前":{"id":"記事のhtmlファイルの.htmlを取った名前","tn":"記事のサムネイル画像のURL"},
 ~~~
 と言う形式で、一番上に追加していってください。追加すれば自動的にホームに表示されます。  
 画像URLを指定しない場合はNO IMAGEの画像に置き換えられます。
