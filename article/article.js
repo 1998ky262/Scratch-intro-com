@@ -20,7 +20,7 @@ com1.onclick=function(){
   .then(response => response.text())
   .then(data => {
   fetch("https://1998ky262.github.io/Scratch-intro-com/article/article-list.txt")
-  .then(response => response.text())
+  .then(response => response.json())
   .then(list => {
   		function con(cont){
       	let arr=list.split("\n");
@@ -29,6 +29,7 @@ com1.onclick=function(){
         	taglist.push(arr[i].split(",")[1]);
         }
         let ret=cont;
+        console.log(taglist);
         for(let i=0;i<taglist.length-1;i++){
         	ret=ret.replace("["+taglist[i]+"]","");
         }
