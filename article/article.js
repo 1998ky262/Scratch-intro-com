@@ -1,7 +1,10 @@
 if(location.pathname=="/Scratch-intro-com/"){
 	var key="";
 }else{
-	var key="["+location.pathname.replace("Scratch-intro-com/article","").replace(/\//g,"")+"]";
+  let temp = location.pathname.split("/");
+  temp = temp[temp.length-1];
+	var key="["+temp+"]";
+  key=key.replace(".html","");
 }
 //key="";
 var com1=document.createElement("p");
@@ -19,17 +22,16 @@ com1.onclick=function(){
   fetch("https://scratch.mit.edu/site-api/comments/project/749865423/")
   .then(response => response.text())
   .then(data => {
-  fetch("https://1998ky262.github.io/Scratch-intro-com/article/article-list.txt")
-  .then(response => response.text())
+  fetch("./article-list.json")
+  .then(response => response.json())
   .then(list => {
   		function con(cont){
-      	let arr=list.split("\n");
         let taglist=[];
-        for(let i=0;i<arr.length;i++){
-        	taglist.push(arr[i].split(",")[1]);
+        for(c of Object.keys(list)){
+        	taglist.push(list[c].id);
         }
-        let ret=cont;
-        for(let i=0;i<taglist.length-1;i++){
+        let ret = cont;
+        for(let i=0;i<taglist.length;i++){
         	ret=ret.replace("["+taglist[i]+"]","");
         }
         return ret

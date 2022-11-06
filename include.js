@@ -22,7 +22,7 @@ window.addEventListener('DOMContentLoaded', function() {
   ele.before(header);
 	if(location.href.includes("article")){
 	var article=document.createElement("script");
-	article.src="https://1998ky262.github.io/Scratch-intro-com/article/article.js";
+	article.src="./article.js";
 	document.body.appendChild(article);
   }
   var newsbox=document.createElement("iframe");
