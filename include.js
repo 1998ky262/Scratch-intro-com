@@ -28,6 +28,7 @@ window.addEventListener('DOMContentLoaded', function() {
   var newsbox=document.createElement("iframe");
   newsbox.src="https://1998ky262.github.io/Scratch-intro-com/news.html";
   newsbox.id="newsbox";
+	newsbox.style.visibility="hidden";
   document.body.before(newsbox);
   let newsbutton=document.getElementById("sidebartoggle");
   newsbutton.addEventListener("click",function(){
