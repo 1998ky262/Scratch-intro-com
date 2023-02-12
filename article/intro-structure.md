@@ -1,6 +1,4 @@
-<title>
-            introの構造
-        </title>
+
 
 #         introの仕組み
 
@@ -33,4 +31,5 @@
 ##        まとめ
 
        頑張れ！(((
+       <script src="../include.js"></script>
     
