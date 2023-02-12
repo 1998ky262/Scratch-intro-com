@@ -14,6 +14,7 @@
 こんなの駄目ですね。
     
 あとは色は使いすぎないほうがいいです。色を使いすぎると、
+    
 <img src="https://1998ky262.github.io/Scratch-intro-com/images/example2.png" height="360" width="480">
 
 こんなふうに、クソダサくなります。<br>一見キレイと思う人もいるかも知れませんが、こんなのはおかしいですね。
