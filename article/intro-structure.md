@@ -31,5 +31,7 @@
 ##        まとめ
 
        頑張れ！(((
+       
+       
        <script src="../include.js"></script>
     
