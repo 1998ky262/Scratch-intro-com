@@ -19,7 +19,8 @@ Penによるintroを「Pen」という単語と「intro」という単語を合�
 
 見本は、「shadow」というIDのクローンを作ることにします。  
 
-<div style="margin:0 auto 0 auto;display:inline-block;background-color:#dcdcdc;padding:10px;border-radius:10px;text-align:left">![](../images/by-fortune.png)</div>  
+<div style="margin:0 auto 0 auto;display:inline-block;background-color:#dcdcdc;padding:10px;border-radius:10px;text-align:left">
+<img src="../images/by-fortune.png"></div>  
 
 こういった感じのプログラムです。
 
