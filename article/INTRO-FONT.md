@@ -22,7 +22,7 @@ scratchにsvgの文字を書きたい場合、<a href="https://danmarshall.githu
 
 僕も結構使うことが多いです。
 
-##AMERICAN CAPTAIN
+## AMERICAN CAPTAIN
 
 <img src="https://1998ky262.github.io/Scratch-intro-com/images/AC.PNG" width="500px">
 
